@@ -1,0 +1,213 @@
+html {
+padding: 0%;
+}
+
+body {
+  text-align: center;
+  background: #3f51b5;
+  overflow-x: hidden;
+  margin: 0px;
+  
+}
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+#game-name {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: yellow;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.btn {
+  margin: 2rem;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+#start-button {
+  font-family: 'Luckiest Guy', cursive;
+  margin-left: 20px;
+  font-size: 2rem;
+  background: linear-gradient(to bottom, #FEEA00, #FFAF00);
+  color: #011F3F;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 2rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  clear: both;
+}
+#start-button:hover,
+.btn:hover {
+  background: linear-gradient(to bottom, #ffffff, #95be37);
+  color: #011F3F;
+}
+.logo {
+  float: right;
+  margin-left: 2rem;
+  max-width: 100%;
+  width: 5rem;
+  height: 5rem;
+  border: 0.5rem solid #ffc107;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+
+}
+
+
+@media (max-width: 768px) {
+  .btn {
+  height: 150px;
+  width: 150px;
+  border-width: 7px;
+  font-size: 1.2rem;
+  }
+  #game-name,
+  #level-title {
+  font-size: 2rem;
+  }
+  .container {
+  height: 60vh;
+  }
+  #start-button {
+  font-size: 1.5rem;
+  padding: 0.8rem 1.6rem;
+  margin-top: 1.5rem;
+  }
+  }
+  
+  @media (max-width: 576px) {
+  .btn {
+  height: 120px;
+  width: 120px;
+  border-width: 5px;
+  font-size: 1rem;
+  }
+  #game-name,
+  #level-title {
+  font-size: 1.5rem;
+  }
+  .container {
+  height: 50vh;
+  }
+  #start-button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  }
+  .logo {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  }
+  }
+  
+  @media (max-width: 375px) {
+  .btn {
+  height: 100px;
+  width: 100px;
+  border-width: 4px;
+  font-size: 0.8rem;
+  }
+  #game-name,
+  #level-title {
+  font-size: 1.2rem;
+  }
+  .container {
+  height: 40vh;
+  }
+  #start-button {
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.5rem;
+  }
+  .logo {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  }
+  }
+
+
+  
+
+
+  footer {
+    background-color: #302a2a;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    footer {
+      padding: 10px;
+    }
+    
+    footer p {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    footer {
+      padding: 5px;
+      margin-top: 30px;
+    }
+    
+    footer p {
+      font-size: 14px;
+    }
+  }
+  
